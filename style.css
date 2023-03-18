@@ -1,6 +1,6 @@
 body {
   background-color: #f2f7fa;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .container {
@@ -12,7 +12,7 @@ body {
 }
 
 .card {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   max-width: 600px;
@@ -22,7 +22,7 @@ body {
 .card-header {
   background-color: #166cb7;
   border-radius: 10px 10px 0px 0px;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 20px;
   text-align: center;
 }
@@ -63,7 +63,7 @@ blockquote {
   background-color: #166cb7;
   border: none;
   border-radius: 5px;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
   font-size: 18px;
   padding: 10px 30px;
@@ -89,4 +89,31 @@ blockquote {
 .card-footer a {
   color: #166cb7;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .card {
+    max-width: 400px;
+  }
+
+  .card-header h1 {
+    font-size: 24px;
+  }
+
+  #quote-text {
+    font-size: 24px;
+  }
+
+  #quote-author {
+    font-size: 16px;
+  }
+
+  #new-quote {
+    font-size: 16px;
+    padding: 8px 20px;
+  }
+
+  .card-footer p {
+    font-size: 12px;
+  }
 }
