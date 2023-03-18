@@ -1,6 +1,7 @@
 # Daily Inspiration: A Random Quote Generator
 
 This is a web application that generates a random quote everytime a user clicks on the "New Quote" button. The quotes are fetched from the [Quotable API](https://api.quotable.io/random).
+
 You can access the deployed application [here](https://indexposition.github.io/Quote-Generator/).
 
 ## Technologies used
