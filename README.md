@@ -16,4 +16,4 @@ To use this application, simply open the `index.html` file in your web browser. 
 
 ## Acknowledgments
 
-- The [Quotable API](https://api.quotable.io/random) for providing the quotes used in this application.
+- The [Quotable API](https://quotable.io/) for providing the quotes used in this application.
