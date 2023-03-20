@@ -12,5 +12,4 @@ function getQuote() {
     .catch((err) => console.log(err));
 }
 
-newQuoteBtn.addEventListener("click", getQuote);
 getQuote();
